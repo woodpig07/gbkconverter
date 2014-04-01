@@ -1,0 +1,21 @@
+{
+  "name": "converter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.8",
+    "ejs": "*",
+    "iconv-lite": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "description": "To convert utf8 encoded text to gbk encoding.",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "Bian Wu",
+  "license": "ISC"
+}

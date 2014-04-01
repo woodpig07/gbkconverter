@@ -1,0 +1,14 @@
+body {
+padding:50px;
+font:14px "Lucida Grande",Helvetica,Arial,sans-serif;
+margin:auto;
+}
+a {
+color: #00B7FF;
+}
+div.main {
+width:800px;
+}
+div.note {
+padding-top:30px;
+}

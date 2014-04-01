@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular.js"></script>
+	<script src="/javascripts/app.js"></script>
+  </head>
+  <body>
+    <h1><%= title %> Demo</h1>
+	<div ng-controller="myCtrl" class="main">
+	<select ng-model="charset" ng-options="c for c in encoding">
+	<option value="">--Choose encoding--</option>
+	</select>
+	<input type="Submit" ng-click="submit()" ng-disabled="text==''||charset==''">
+	<br>
+	<textarea row="40" cols="50" ng-model="text">
+	</textarea>
+     <hr>
+	<label>Result</label>
+	<p>{{result}}</p>
+	</div>
+	<div class="note">
+	<p>For API documentation or tech support, please reach me at woodpig07@gmail.com</p>
+	</div>
+  </body>
+</html>
